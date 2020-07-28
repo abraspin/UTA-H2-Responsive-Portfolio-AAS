@@ -33,7 +33,7 @@ Author: Abraham Spindel
 ---
 
 ## Credits
-Hover.css
+Hover.css Copyright Ian Lunn 2017. Generated with Sass.
 Bootstrap Framework
 
 ---
