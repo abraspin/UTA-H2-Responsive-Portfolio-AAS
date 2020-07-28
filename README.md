@@ -9,8 +9,10 @@ Html and CSS for UTA Bootcamp Homework-02 CSS HTML BootStrap: Responsive Portfol
 >screen sizes. Developers are often asked to create mobile-first application or add responsive 
 >design to an existing application.
 
+---
 
 The assignment was to use the Bootstrap CSS Framework to create a mobile responsive personal portfolio. 
+
 ---
 
 ## Contents
