@@ -1,7 +1,5 @@
 # UTA-H2-Responsive-Portfolio-AAS
 Html and CSS for UTA Bootcamp Homework-02 CSS HTML BootStrap: Responsive Portfolio
-# UTA-H1-Code-Refactor
-*Html and CSS for UTA Bootcamp Homework-02 CSS HTML BootStrap: Responsive Portfolio*
 ### This repository contains the code files for the second homework assignment for the UT-Austin Coding Bootcamp.
 
 ---
