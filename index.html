@@ -13,29 +13,35 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Abraham Spindel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/Resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/Projects.html">Projects</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./pages/Contact.html">Contact Me</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+        <!-- <div class="row"> -->
+        <div class="col-md-8">
+            <a class="navbar-brand" href="./index.html">Abraham Spindel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+        <div class="col-md-4">
+            <!-- why doesn't the nav bar hamburger work when screen width reduced? -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./pages/Contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- </div> -->
     </nav>
 
     <br>
@@ -76,7 +82,7 @@
                     <img id="profile-pic" src="./assets/images/my-face.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">Abraham Spindel</h3>
-                       <hr>
+                        <hr>
                         <p class="card-text">
                             My name is Abraham Spindel and I am a full-stack web developer.</p>
                         <p>
@@ -90,10 +96,16 @@
                             polymers and computer science.
                         </p>
                         <!-- *************how do i center this button? -->
-                       
+
                         <hr>
-                        <a href="mailto:AbrahamSpindel@gmail.com" id="email-me-button" class="btn btn-primary hvr-grow">E-mail
-                            me</a>
+                        <!-- another attempt at centering the thing -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="mailto:AbrahamSpindel@gmail.com" id="email-me-button"
+                                    class="btn btn-primary hvr-grow">E-mail
+                                    me</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,7 +113,7 @@
             <!-- Links to rest of website, right half of this row -->
             <!-- I'm spacing these out manually using <br> is there a better way? like with padding? -->
             <aside class="col-md-6">
-                <br><br><br>
+               
 
                 <div class="row">
                     <!-- <button type="button" class="btn btn-primary link-button hvr-grow">Resume</button> -->
@@ -130,6 +142,10 @@
                         onclick="window.location.href='https://github.com/abraspin';">GitHub</button> -->
                     <a class="btn btn-primary link-button hvr-grow" href="https://github.com/abraspin'"
                         target="_blank">GitHub</a>
+                </div>
+                <div class="row">
+                    <a class="btn btn-primary link-button hvr-grow" href="./pages/Contact.html"
+                        target="_blank">Contact Me</a>
                 </div>
             </aside>
         </div>
