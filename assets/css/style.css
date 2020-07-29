@@ -82,3 +82,21 @@ padding: 10px;
   width: 100%;
   height: 100%;
 }
+.project-listing{
+  margin: 40px;
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 50px;
+}
+.project-link-pic{
+max-width:  300px;
+max-height: 300px;
+}
+.jumbotron{
+  background-color: rgb(87, 100, 156);
+  
+}
+.color-header{
+  margin: 20px;
+color: limegreen;
+}
