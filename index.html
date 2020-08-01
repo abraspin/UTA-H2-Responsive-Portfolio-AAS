@@ -7,16 +7,13 @@
     <title>Abraham Spindel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href=".\assets\css\style.css">
-
-    <!-- Is this really all I need for mobile responsiveness? -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <!-- Nav Bar -- why is it not full screen width here but it is on Portfolio.html? same code-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
-        <div class="col-md-8">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="col-md-6">
             <a class="navbar-brand" href="./index.html">Abraham Spindel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,9 +21,9 @@
             </button>
         </div>
 
-        <div class="col-md-4">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+        <div class="col-md-6 float-right">
+            <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-right">
                     <li class="nav-item active">
                         <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -39,48 +36,17 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="./pages/Contact.html">Contact Me</a>
                     </li>
-                    <li class="nav-item " >
+                    <li class="nav-item ">
                         <a class="nav-link" href="./pages/About-Me.html">About Me</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <br>
-
-    <!-- <header>Abraham Alexander Spindel</header> -->
-
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <!-- about me card, left half of this row -->
-                <!-- *****************How do I center this image within the rightmost column? -->
-                <!-- <div class="jumbotron">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1 class="display-4">Abraham Spindel</h1>
-                            </div>
-                            <div class="col-md-6">
-                                <img id="profilepic" src="./assets/images/my-face.PNG" alt="Abraham.png">
-                            </div>
-                        </div>
-                    </div>
-
-                    <p class="lead">Thanks for visiting my website!</p>
-                    <hr class="my-4">
-                    <p>
-                        My name is Abraham Spindel and I am a full-stack web developer. I recently completed the
-                        <strong>University of Texas-Austin Full-Stack Coding Bootcamp</strong>. I am a former
-                        Manufacturing Engineer for plastic automotive components. I have a B.S in Mechanical
-                        Engineering from the University of Wisconsin-Madison, with a background in composite
-                        polymers and computer science.
-                    </p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </div> -->
-
-
                 <div class="card" style="width: 100%;">
                     <img id="profile-pic" src="./assets/images/my-face.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -98,15 +64,13 @@
                             Engineering from the University of Wisconsin-Madison, with a background in composite
                             polymers and computer science.
                         </p>
-                        <!-- *************how do i center this button? -->
 
                         <hr>
-                        <!-- another attempt at centering the thing -->
+                    
                         <div class="row">
                             <div class="col-md-12">
                                 <a href="mailto:AbrahamSpindel@gmail.com" id="email-me-button"
-                                    class="btn btn-primary hvr-grow">E-mail
-                                    me</a>
+                                    class="btn btn-primary hvr-grow email-me-button">E-mail me</a>
                             </div>
                         </div>
                     </div>
@@ -114,35 +78,24 @@
             </div>
 
             <!-- Links to rest of website, right half of this row -->
-            <!-- I'm spacing these out manually using <br> is there a better way? like with padding? -->
+
             <aside class="col-md-6">
 
 
                 <div class="row">
-                    <!-- <button type="button" class="btn btn-primary link-button hvr-grow">Resume</button> -->
-                    <!-- <a role="button"href="./assets/WebDev-Resume-Bio-Website.pdf" class="btn btn-primary link-button">Resume</a>  -->
-                    <!-- <a class="btn btn-default" href="./assets/WebDev-Resume-Bio-Website.pdf" role="button">Resume</a> -->
-                    <!-- <button class="btn btn-primary link-button hvr-grow" onclick="window.location.href='./Resume.html';">Resume</button> -->
                     <a class="btn btn-primary link-button hvr-grow" href="./pages/Resume.html">Resume</a>
 
                 </div>
                 <div class="row">
-                    <!-- <button type="button" class="btn btn-primary link-button hvr-grow">Portfolio</button> -->
-                    <!-- <button class="btn btn-primary link-button"
-                        onclick="window.location.href='./Portfolio.html';">Portfolio</button> -->
                     <a class="btn btn-primary link-button hvr-grow" href="./pages/Portfolio.html">Portfolio</a>
 
                 </div>
                 <div class="row">
-                    <!-- <button class="btn btn-primary link-button"
-                        onclick="window.location.href='https://www.linkedin.com/in/abrahamspindel/';">LinkedIn</button> -->
                     <a class="btn btn-primary link-button hvr-grow" href="https://www.linkedin.com/in/abrahamspindel/"
                         target="_blank">LinkedIn</a>
 
                 </div>
                 <div class="row">
-                    <!-- <button target="_blank" class="btn btn-primary link-button"
-                        onclick="window.location.href='https://github.com/abraspin';">GitHub</button> -->
                     <a class="btn btn-primary link-button hvr-grow" href="https://github.com/abraspin'"
                         target="_blank">GitHub</a>
                 </div>
@@ -154,43 +107,6 @@
         </div>
     </div>
 
-
-    <!-- test nav bar to try to figure out the hamburger seen on screen width reduction -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav> -->
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -204,6 +120,5 @@
         crossorigin="anonymous"></script>
 
 </body>
-
 
 </html>
