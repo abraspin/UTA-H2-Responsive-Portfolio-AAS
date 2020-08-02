@@ -72,7 +72,10 @@ margin-right: auto ;
 padding: 10px;
 
 }
-
+.embedResume{
+  width: 100%;
+  height: 1000px;
+}
 .contact-form{
 
   width: 100%;
