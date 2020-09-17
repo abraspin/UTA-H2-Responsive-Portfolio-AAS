@@ -18,7 +18,7 @@ The assignment was to use the Bootstrap CSS Framework to create a mobile respons
 ## Contents
 **Files include:**
 * Index file
-* Linked paged: Resume, Projects, Contact
+* Linked pages: Resume, Projects, Contact
 * Style Sheet containing CSS code
 * Photos displayed on the web page
 * Resume pdf
